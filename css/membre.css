@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../wp-content/themes/Monad/fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../wp-content/themes/Monad/fonts/Comfortaa-Regular.ttf');
+}
+@font-face {
+    font-family: 'Comfortaa-Light';
+    src: url('../wp-content/themes/Monad/fonts/Comfortaa-Light.ttf');
+}
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('../wp-content/themes/Monad/fonts/Comfortaa-Bold.ttf');
+}
+body{
+    background-color: #fffdf1;
+}
+
+
+
+
+/*************************PAGE MEMBRE****************************************/
+
+.tlp-col-lg-5 tlp-col-md-5 tlp-col-sm-6 tlp-col-xs-12 tlp-member-feature-img {
+
+height: 300px;
+
+margin-left: 150px;
+}
+
+.tlp-col-lg-5 tlp-col-md-5 tlp-col-sm-6 tlp-col-xs-12 tlp-member-feature-img img{
+height: 100%;
+
+}
+
+
+
+.tlp-col-lg-7 tlp-col-md-7 tlp-col-sm-6 tlp-col-xs-12{
+width: 584px;
+}
+
+.tlp-member-title{
+ font-family: 'MyriadPro', sans-serif;
+ font-size: 2em;
+ color: #484c51;
+ margin-bottom: 15px;
+
+}
+.tlp-position{
+font-family: 'MyriadPro', sans-serif;
+ color: #484c51;
+ margin-bottom: 5px;
+ 
+}
+.tlp-member-detail {
+font-family: 'MyriadPro', sans-serif;
+ color: #484c51;
+ line-height: 1.618;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 200px;
+ 
+}
+
+
+.contact-info{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
+}
+
+
+
+.tlp-member-title , .tlp-position  , .tlp-single-details tlp-team {
+width: 54%;	
+margin-right: -200px;					 	
+}
+
+.tlp-member-title , .{
+width: 40%;
+}
+
+.tlp-member-detail p{
+padding-bottom: 15px;
+}
+
+
+
+
+
+.tlp-single-details tlp-team{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
+
+}
+
+.contact-info li {
+font-family: 'MyriadPro', sans-serif;
+ color: #484c51;
+ line-height: 1.618;
+ font-weight: 300;
+ 
+}
+
+.contact-info li strong{
+font-weight: 600;
+
+}
+
+.contact-info {
+list-style:disc;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
+
+}
+
+.contact-info li a{
+color: #71C48F
+font-weight: 600;
+}
+
+.email a, .web_url a{
+    font-weight: 500;
+    color: #71C48F;
+
+}
+
+.tlp-single-details tlp-team .contact-info li a {
+font-weight: 500;
+    color: #71C48F;
+}
+
+
+
+
+/***********************RESPONSIVE****************************/*
+
+@media only  screen and (max-width: 1400px) {
+
+
+
+}
+
+
+
+
+
+
+

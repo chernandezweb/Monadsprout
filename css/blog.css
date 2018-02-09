@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../wp-content/themes/Monad/fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../wp-content/themes/Monad/fonts/Comfortaa-Regular.ttf');
+}
+@font-face {
+    font-family: 'Comfortaa-Light';
+    src: url('../wp-content/themes/Monad/fonts/Comfortaa-Light.ttf');
+}
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('../wp-content/themes/Monad/fonts/Comfortaa-Bold.ttf');
+}
+body{
+    background-color: #fffdf1;
+}
+
+
+
+
+/*************************PAGE blog****************************************/
+
+.blogg{
+	width:100%
+}
+
+ .wr{
+	
+	max-width:1080px;
+	width:100%;
+	margin: 0 auto;
+	
+
+	
+}
+
+
+.blogg .wr .photoo {
+         width:100%;
+         margin:150px 0 50px;
+        
+         
+
+}
+
+ .titre2{
+	font-weight:bold;
+	color:#484c51;
+        font-family:'Myriad Pro', sans-serif;
+        font-size: 40px;
+	text-align:center;             	
+}
+
+.titre2 span{
+	font-weight:400;
+	
+}
+
+
+span{
+	font-size:24px;
+}
+
+.blogg p{
+	color:#484c51;
+        font-family:'Myriad Pro', sans-serif;
+        margin-top: 100px;
+        margin-left:22%;
+	margin-right:22%;
+	font-size: 24px;
+	line-height:40px;
+	text-align: center;
+}
+
+.beau{
+	
+	height:5px;
+	background-color:#71c48f;
+}
+
+@media only screen and (max-width: 750px){
+
+ .titre2{
+	font-weight:bold;
+	color:#484c51;
+        font-family:'Myriad Pro', sans-serif;
+        font-size: 28px;
+	text-align:center;             	
+}
+
+span{
+	font-size:16px;
+}
+
+.blogg p{
+	color:#484c51;
+        font-family:'Myriad Pro', sans-serif;
+        margin-top: 100px;
+        margin-left:auto;
+	margin-right:auto;
+	font-size: 20px;
+	line-height:40px;
+	text-align: center;
+	width:80%;
+
+}
+
+}
+
+

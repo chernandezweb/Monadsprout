@@ -1,0 +1,234 @@
+/*
+Theme Name: Monad
+Theme URI: https://www.nilovelez.com/goodies/blank/
+Author: Younes, Carlos, Alex, William, Shan
+Author URI: http://www.nilovelez.com/
+Description: This theme was intentionally left blank. There are times when all you need is the WordPress dashboard and an blank frontend. You might be using the WordPress REST API as a backend for a mobile App or you might be a minimalism obsessed hipster. This is your theme.
+Version: 1.2.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, theme-options, translation-ready
+Text Domain: Monad
+*/
+
+.contact-info{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
+}
+
+
+
+/* ---------------------------------------------------- */
+/* ----------------------- 1. MENU -------------------- */
+
+
+
+@font-face {
+  font-family: "sans-serif", MyriadPro;
+  src: url("../fonts/MyriadPro-Regular.otf"); }
+#mainmenu {
+
+  background-color: #71c48f;
+  font-family: "sans-serif", MyriadPro; }
+
+#mainmenu li a {
+  color: white; }
+
+#mainmenu li a:hover {
+  color: black; }
+
+.sousmenu li a {
+  background-color: #71c48f;
+  color: white; }
+
+.sousmenu li a:hover {
+  color: black; }
+
+.sousmenu {
+  background-color: #71c48f;
+  font-family: "sans-serif", MyriadPro; }
+
+#sousmenu {
+  background-color: #71c48f; }
+
+@media screen and (max-width: 1400px) {
+  #menumobile {
+    background-color: black;
+    color: white; }
+
+  #menumobile li a {
+    color: white; }
+
+  #menumobile {
+    font-family: "sans-serif", MyriadPro; } }
+
+/*# sourceMappingURL=menushan.css.map */
+
+
+
+/* REGULAR CSS*/
+#menuShan{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+#mainmenu {
+  display: flex;
+justify-content: center;
+  font-size: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#mainmenu #logo a {
+  margin: 0;
+  padding: 2px 0 0 0 ;
+}
+
+#mainmenu #panier a {
+  margin: 0;
+  padding: 8px 0 0 0 ;
+}
+
+#mainmenu #logo  {
+  margin: 0;
+  padding: 0 200px 0 0;
+}
+
+#mainmenu #liblog {
+  max-width:120px;
+  width: 100%;
+  margin-right: 30px;
+}
+
+#mainmenu li {
+  width: 100%;
+  max-width: 150px;
+  float: left;
+}
+
+
+#mainmenu li a {
+
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Submenu */
+ul .sousmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-table;
+}
+
+ul li {
+
+  display: inline;
+}
+
+.sousmenu li a {
+  display: block;
+  padding: 6px 16px;
+  text-decoration: none;
+}
+
+span {
+  padding: 6px 16px;
+}
+
+.sousmenu {
+  justify-content: center;
+  font-size: 13px;
+  max-width:150px;
+  width: 150px;
+  height: 200px;
+}
+
+#sousmenu {
+  padding: 10px 0 0 30% !important;
+  margin: 0;
+  height: 200px;
+}
+
+.menupadding {
+  padding-right: 140px !important;
+}
+
+
+#menumobile{
+  display: none;
+}
+
+#menuburger{
+
+  display: none;
+}
+
+
+@media screen and (max-width:1400px) {
+
+  #menuburger{
+
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.90;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+
+
+  #burgerbutton{
+    padding: 20px;
+  }
+
+  #burgerclose{
+    display: none;
+    padding: 20px;
+  }
+
+  #menumobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    min-width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-size: 18px;
+    opacity: 0.90;
+    padding-bottom: 100px;
+  }
+
+  #menumobile  li{
+    padding: 40px;
+  }
+
+  #menumobile  li a{
+    text-decoration: none;
+  }
+
+  #mainmenu {
+    display: none;
+
+  }
+
+  #sousmenu {
+    padding-left: 25%;
+
+  }
+}

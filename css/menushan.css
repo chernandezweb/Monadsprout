@@ -1,0 +1,323 @@
+@font-face {
+  font-family: "sans-serif", MyriadPro;
+  src: url("../fonts/MyriadPro-Regular.otf"); }
+  
+  #menuShan{
+  z-index: 10;
+
+}
+#mainmenu {
+  background-color: #71c48f;
+  font-family: "sans-serif", MyriadPro; 
+  
+  }
+  
+  
+  
+ #menu-main_menu, #menu-main_menu_an, #menu-main_menu_he{
+ width: 1000px;
+  
+   }
+   
+ .sub-menu{
+    display:none;
+   }
+   
+   
+ #menu-main_menu:hover .sub-menu{
+display : block;
+}
+
+.sub-menu li{
+font-size: 16px;
+}
+
+#mainmenu li a {
+  color: white; }
+
+#mainmenu li a:hover {
+  color: black; }
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+  #menumobile {
+    background-color: black;
+    color: white;
+    z-index: 9;
+  }
+
+  #menumobile li a {
+    color: white; }
+
+  #menumobile {
+    font-family: "sans-serif", MyriadPro; } }
+
+
+
+
+
+
+/* REGULAR CSS*/
+#menuShan{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ 
+  
+  
+
+}
+
+#mainmenu {
+  display: flex;
+justify-content: center;
+  font-size: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#mainmenu #logo a {
+  margin: 0;
+  padding: 2px 0 0 0 ;
+}
+
+#mainmenu #panier a {
+  margin: 0;
+  padding: 8px 0 0 0 ;
+}
+
+#mainmenu #logo  {
+  margin: 0;
+  padding: 0 0px 0 0;
+}
+
+#mainmenu #liblog {
+  max-width:120px;
+  width: 100%;
+  margin-right: 30px;
+}
+
+#mainmenu li {
+  width: 100%;
+  max-width: 150px;
+  float: left;
+}
+
+
+#mainmenu li a {
+
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Submenu */
+ul .sousmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-table;
+}
+
+ul li {
+
+  display: inline;
+}
+
+.sub-menu li a {
+  display: block;
+  padding: 6px 16px;
+  text-decoration: none;
+}
+
+ #menuShan span {
+  padding: 6px 16px;
+}
+
+.sub-menu {
+  
+  font-size: 13px;
+  max-width:150px;
+  width: 150px;
+  height: 200px;
+  flex-direction:column;
+}
+
+.sub-menu {
+ 
+  margin: 0;
+  height: 200px;
+}
+
+.menupadding {
+  padding-right: 140px !important;
+}
+
+
+#menumobile{
+  display: none;
+}
+
+#menuburger{
+
+  display: none;
+}
+
+
+
+/*************************LANGUES****************************************/
+
+.wpml-ls-display icl_lang_sel_translated{
+display: none !important;
+}
+
+
+
+
+
+#langues {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  right: 10%;
+  z-index: 9;
+}
+
+#langues li {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  border: solid 2px white;
+  margin: 10px; }
+
+#langues a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-align: center; }
+
+#langues a:hover {
+  color: #7cce99; }
+
+
+/****************************************************************/
+
+@media screen and (max-width:1100px) {
+
+  #menuburger{
+
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.90;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+
+
+  #burgerbutton{
+    padding: 20px;
+  }
+
+  #burgerclose{
+    display: none;
+    padding: 20px;
+    position: fixed; 
+  }
+
+  #menumobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    min-width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-size: 18px;
+    opacity: 0.90;
+    padding-bottom: 100px;
+  }
+
+  #menumobile  li{
+    padding: 20px;
+  }
+
+  #menumobile  li a{
+    text-decoration: none;
+  }
+
+  #mainmenu {
+    display: none;
+
+  }
+
+  #sousmenu {
+    padding-left: 25%;
+
+  }
+  
+  #menu-main_menu-1 li,#menu-main_menu_an-1 li {
+display: block;
+}
+
+#langues {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 12px;
+  left: 10%;
+  z-index: 90;
+}
+}
+
+
+
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
+    position: relative;
+    padding-right: calc(11px + .7em + 1.1em) !important;
+}
+
+.wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
+     visibility: visible !important; 
+     border-top: none !important; }
+
+.wpml-ls-sub-menu{
+    width:10px !important;
+    top: 45px !important;
+}
+
+
+.wpml-ls-legacy-dropdown {
+    width: 3.5em !important;
+}
+
+.wpml-ls-item-he{
+    display:none !important;
+}
+
+
+
+
+
+@media screen and (max-width: 1230px) {
+    #mainmenu li {
+  max-width: 135px;}
+  #mainmenu li a {
+  font-size: 14px;
+  padding: 15px 0;}
+  }
+
+
